@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.nav-bar {
+  display: inline-flex;
+  list-style: none;
+}
+.nav-bar li {
+  margin: 10px;
+  cursor: pointer;
+}
+.nav-bar li a {
+  color: green;
+}
+.img {
+  width: 55%;
+  text-align: center;
+}
+.link {
+  margin: 20px 10px 60px;
+}
+.list {
+  margin: 10px 10px 60px;
+}
+.list ul {
+  margin-left: 50px;
+}
+.table {
+  margin: 10px 10px 60px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 5px;
+}
+.form {
+  margin: 10px;
+}
+.form input,
+textarea {
+  margin: 10px;
+}
